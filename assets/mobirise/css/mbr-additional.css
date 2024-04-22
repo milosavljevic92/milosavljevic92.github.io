@@ -885,6 +885,11 @@ a {
   padding-left: 1rem;
   padding-right: 0.5rem;
 }
+@media (min-width: 767px) {
+  .cid-uaChoEeb4U .navbar-caption {
+    padding-left: 2rem;
+  }
+}
 @media (max-width: 767px) {
   .cid-uaChoEeb4U .nav-dropdown {
     padding-bottom: 0.5rem;
@@ -1004,11 +1009,6 @@ a {
 }
 .cid-uaChoEeb4U .navbar.collapsed.opened .dropdown-menu {
   top: 0;
-}
-@media (min-width: 992px) {
-  .cid-uaChoEeb4U .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 5rem);
-  }
 }
 .cid-uaChoEeb4U .navbar.collapsed .dropdown-menu .dropdown-submenu {
   left: 0 !important;
